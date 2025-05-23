@@ -1,0 +1,83 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 ;
+    background-color: #f9f9f9;
+}
+.headerinner{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagesLinks{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: black;
+        font-size: 20px;
+    }
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.homelink{
+    color: #207dff;
+    text-decoration: none;
+}
+.link:hover{
+    color: #207dff;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.iconsBtn{
+    padding: 10px;
+    background-color:#f9f9f9;
+    border: none;
+    font-size: 17px;
+}
+.hamburger{
+    display:none;
+}
+.dashbrd{
+    color: black;
+    font-size: 20px;
+}
+@media  (max-width:780px) {
+    .headerinner{
+       width: 90%;
+       justify-content: center;
+       gap: 20px;
+    }
+    .pagesLinks{
+        display: none;
+    }
+    .Link{
+        font-size: 10px;
+        width: 40%;
+    }
+    .icons{
+       display: none;
+    }
+    .hamburger{
+        width: 10%;
+        display: block;
+        font-size: 30px;
+    }
+    .dashbrd{
+        width: 10%;
+    }
+}

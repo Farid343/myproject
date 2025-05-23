@@ -1,0 +1,91 @@
+.first{
+    width: 100%;
+    height: 90vh;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 50px;
+}
+.firsttext{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 70px;
+        font-weight: bold;
+    }
+    h6{
+        font-size: 20px;
+    }
+    
+}
+.span{
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    color:black;
+    s{
+        color: gray;
+    }
+}
+.firstBtn{
+    display: flex;
+    gap: 10px;
+    button{
+        width: 130px;
+        height: 40px;
+        border: 1px solid #207dff;
+        background-color: white;
+        color: #207dff;
+    }
+}
+.firstimgbox{
+    width: 40%;
+    height: 95%;
+    background-image: url(https://preview.colorlib.com/theme/dealers/images/new/person_transparent.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media  (max-width:780px) {
+    .first{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .firsttext{
+        text-align: center;
+        height: 50%;
+        gap: 10px;
+        h1{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        h6{
+            font-size: 18px;
+        }
+    }
+    .firstBtn{
+        button{
+            width: 80px;
+            height: 40px;
+        }
+
+    }
+    .span{
+        font-size: 20px;
+    }
+    .firstimgbox{
+        width:50%;
+        height: 40%;
+        background-size: 100%;
+    }
+}
